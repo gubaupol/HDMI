@@ -1,0 +1,37 @@
+#hdmi1 {
+    color: rgb(128, 128, 128);
+}
+
+#hdmi2 {
+    color: rgb(95, 95, 95);
+}
+
+#hdmi3 {
+    color: rgb(71, 71, 71);
+}
+
+#hdmi4 {
+    color: rgb(39, 39, 39);
+}
+
+#hdmi5 {
+    color: rgb(0, 0, 0);
+}
+
+.visual {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1.hdmi {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#fondoformas {
+    margin-top: -20%
+}
+
+#trianguloformas {
+    z-index: 2;
+    margin-top: -10%
+}

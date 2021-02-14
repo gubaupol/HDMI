@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.img-responsive {
+    max-width: 100%;
+    max-height: 200%;
+}
+
+#intro {
+    background: rgb(233, 233, 233);
+    text-align: center;
+    position: relative;
+}
+
+#scene {
+    padding: 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#scene li {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.titles h3 {
+    font-size: 2vw;
+    font-family: "Poppins";
+}
+
+.hdmi {
+    font-family: "Poppins";
+    font-size: 15vw;
+    text-align: center;
+}
+
+#trianguloformas {
+    filter: blur(20px);
+}
+
+#fondoformas {
+    filter: blur(10px);
+}

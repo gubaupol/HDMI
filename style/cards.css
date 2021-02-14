@@ -1,0 +1,65 @@
+/* TITLES */
+
+h3 {
+    text-align: center;
+}
+
+
+/* casillas */
+
+#graellaproyectos {
+    margin-top: 8%
+}
+
+
+/* PHOTOS */
+
+.imgs {
+    width: 100%;
+    border-bottom: black 4px solid;
+    border-radius: 5px;
+    opacity: 90%;
+}
+
+.imgs:hover {
+    opacity: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Centered text */
+
+.titleproject {
+    padding: 14vw 10vw;
+    opacity: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 5px #000000;
+    transition: .3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.titleproject:hover {
+    opacity: 100;
+}
+
+#notyetta {
+    opacity: 60%;
+}

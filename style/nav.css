@@ -1,0 +1,42 @@
+#lista1 {
+    z-index: 9999;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#lista1 li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navelement {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+.navelement:hover {
+    transition: 0.2s;
+    color: black;
+    border-bottom: solid 3px rgb(0, 0, 0);
+    border-top: solid 3px rgb(0, 0, 0);
+}
+
+
+/* ---------------------------------------------FOOTER */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background: rgb(233, 233, 233);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
